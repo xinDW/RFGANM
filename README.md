@@ -11,8 +11,8 @@ An old-version [TensorLayer](http://tensorlayer.readthedocs.io/en/latest/) is us
 
 ### Prepare Data and Pre-trained VGG
 
-- 1. Download the pretrained VGG19 model in [here](https://mega.nz/#!xZ8glS6J!MAnE91ND_WyfZ_8mvkuSa2YcA7q-1ehfSm-Q1fxOvvs)
-- 2. High resolution(HR) and low resolution(LR) image pairs are needed to trian the GAN. 
+- Download the pretrained VGG19 model from [here](https://mega.nz/#!xZ8glS6J!MAnE91ND_WyfZ_8mvkuSa2YcA7q-1ehfSm-Q1fxOvvs)
+- High resolution(HR) and low resolution(LR) image pairs are needed to trian the GAN. 
 
 
 ### Train the network
@@ -35,6 +35,7 @@ python trian.py
 
 ```python 
 config.VALID.lr_img_path = 'lr_image_folder'
+```
 
 - start inferencing with: 
 ```
