@@ -24,16 +24,13 @@ config.TRAIN.decay_every = int(config.TRAIN.n_epoch / 2)
 
 ## train set location
 
-#config.TRAIN.hr_img_path = 'path-to-HRs'
-#config.TRAIN.lr_img_path = 'path-to-LRs'
-config.TRAIN.hr_img_path = 'data/py_test/hr/'
-config.TRAIN.lr_img_path = 'data/py_test/lr/'
+config.TRAIN.hr_img_path = 'data/hr/'
+config.TRAIN.lr_img_path = 'data/lr/'
 
 config.VALID = edict()
 
 ## test set location
-#config.VALID.lr_img_path = 'path-to-test-lrs'
-config.VALID.lr_img_path = 'data/py_test/lr/'
+config.VALID.lr_img_path = 'data/inference/lr/'
 
 
 
