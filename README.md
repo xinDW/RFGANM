@@ -38,7 +38,7 @@ config.VALID.lr_img_path = 'lr_image_folder'
 ```
 
 - start inferencing with: 
-```
+
 ```bash
 python inference.py --begin_epoch=<your_checkpoint_file_number> 
 ```
