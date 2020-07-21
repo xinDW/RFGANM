@@ -45,7 +45,7 @@ python inference.py --begin_epoch=<your_checkpoint_file_number>
 
 
 ### Reference
-* [1] [High-throughput, high-resolution registration-free generated adversarial network microscopy](https://arxiv.org/abs/1801.07330)
+* [1] [High-throughput, high-resolution deep learning microscopy based on registration-free generative adversarial network](https://doi.org/10.1364/BOE.10.001044)
 * [2] [SRGAN](https://github.com/tensorlayer/srgan)
 
 ### License
